@@ -1,0 +1,212 @@
+@media all and (max-width: 1170px) and (min-width: 980px) {
+  .navleft img {
+    width: 100px;
+    height: 30px;
+  }
+  .navcenter a {
+    font-size: medium;
+    margin-left: 15px;
+  }
+  .navcenter a:hover {
+    font-size: large;
+    color: rgb(36, 84, 221);
+    transition: 0.3s;
+    align-items: center;
+  }
+  .navright a {
+    font-size: medium;
+    padding: 10px 20px;
+  }
+  .navright i {
+    display: none;
+  }
+  .details {
+    margin: 0px 140px;
+  }
+  .background {
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .background h3 {
+    font-weight: 200;
+    font-size: x-large;
+  }
+  .background p{
+    font-size: x-large;
+  }
+}
+
+@media all and (min-width: 1171px) {
+  .navright i {
+    display: none;
+  }
+  .main {
+    background: linear-gradient(
+      -352.16deg,
+      rgba(255, 255, 0, 0.4) 35%,
+      white 0%
+    );
+  }
+  .background h3 {
+    font-weight: 100;
+    font-size: x-large;
+  }
+  .details {
+    margin: 0px 180px;
+  }
+  .background {
+    border-radius: 40px;
+    background-size: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  .background p{
+    font-size: x-large;
+  }
+}
+@media all and (max-width: 979px) {
+  .navcenter {
+    display: none;
+  }
+  .navleft img {
+    width: 100px;
+    height: 30px;
+  }
+  .navright a {
+    display: none;
+  }
+  .navright {
+    margin-left: auto;
+  }
+  .navright i {
+    cursor: pointer;
+  }
+  .aboutUS h2 {
+    font-size: x-large;
+    margin-bottom: 15px;
+    color: rgb(36, 84, 221);
+  }
+  .aboutUS h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .background {
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .details {
+    margin: 0px 80px;
+  }
+
+  .details p {
+    color: rgb(100, 99, 99);
+    font-size: medium;
+    line-height: 1.3rem;
+  }
+  .content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px 250px;
+    align-items: center;
+    height: 400px;
+    column-gap: 100px;
+    position: relative;
+  }
+
+  .background h3 {
+    font-size: medium;
+    margin: 10px 0px;
+    font-weight: 200;
+  }
+  .background p {
+    font-size: medium;
+    margin: 10px 0px;
+  }
+  .info {
+    color: grey;
+    line-height: 1.5rem;
+  }
+}
+
+@media all and (max-width: 1178px) and (min-width: 900px) {
+  .quote p {
+    font-size: 40px;
+  }
+  .video1 video {
+    width: 200px;
+  }
+  .discription p {
+    font-size: medium;
+  }
+  .playstore1 img {
+    width: 150px;
+  }
+  .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    margin-top: 2px solid rgb(176, 153, 153);
+    background: linear-gradient(
+      -352.16deg,
+      rgba(255, 255, 0, 0.4) 35%,
+      white 0%
+    );
+  }
+  .background {
+    border-radius: 40px;
+    align-items: center;
+  }
+  .background h3 {
+    font-weight: 150;
+  }
+  .background p{
+    font-size:20px;
+  }
+}
+
+@media all and (max-width: 899px) {
+  .main {
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    background: linear-gradient(
+      -352.16deg,
+      rgba(255, 255, 0, 0.4) 51%,
+      white 0%
+    );
+    border-bottom: -30px solid white;
+    padding: 10px 70px;
+  }
+  .quote p {
+    font-size: 30px;
+  }
+  .video1 video {
+    width: 200px;
+    flex-wrap: wrap;
+  }
+  .discription p {
+    font-size: medium;
+  }
+  .playstore1 img {
+    width: 100px;
+  }
+  .details {
+    margin: 0px 40px;
+  }
+  .background {
+    border-radius: 30px;
+    align-items: center;
+  }
+  .background h3 {
+    font-weight: 50;
+  }
+  .background p{
+    font-size: medium;
+  }
+}
