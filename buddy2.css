@@ -32,7 +32,7 @@
     font-weight: 200;
     font-size: x-large;
   }
-  .background p{
+  .background p {
     font-size: x-large;
   }
 }
@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
   }
-  .background p{
+  .background p {
     font-size: x-large;
   }
 }
@@ -163,8 +163,8 @@
   .background h3 {
     font-weight: 150;
   }
-  .background p{
-    font-size:20px;
+  .background p {
+    font-size: 20px;
   }
 }
 
@@ -206,7 +206,33 @@
   .background h3 {
     font-weight: 50;
   }
-  .background p{
+  .background p {
     font-size: medium;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .step-image img {
+    width: 120px;
+    height: 300px;
+  }
+  .steps-content p1 {
+    padding: 3px 8px;
+    font-size: medium;
+  }
+  .steps-content p2 {
+    font-size: x-large;
+  }
+  .steps-content p3 {
+    font-size: larger;
+    line-height: 20px;
+  }
+  .step-1,
+  .step-2,
+  .step-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
   }
 }
