@@ -107,15 +107,6 @@
     font-size: medium;
     line-height: 1.3rem;
   }
-  .content {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 250px 250px;
-    align-items: center;
-    height: 400px;
-    column-gap: 100px;
-    position: relative;
-  }
 
   .background h3 {
     font-size: medium;

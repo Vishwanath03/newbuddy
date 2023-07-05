@@ -2,8 +2,11 @@
   margin: 5px 10px;
   border: 0;
 }
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 .navbar {
   display: flex;
@@ -111,16 +114,16 @@ body {
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
-  /* flex-template-columns: 370px 370px 370px; */
-  /* width: 100%; */
-  height: auto;
-  column-gap: 50px;
-  position: relative;
+  padding: 0px 50px;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 .background {
+  width: 350px;
+  height: 350px;
   background-color: rgb(255, 231, 92);
   padding: 10px 10px;
+  flex-shrink: 0;
 }
 .image {
   background-color: white;
@@ -140,8 +143,6 @@ body {
 .try_it_now {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
 }
 .try_it_now a {
   color: white;
